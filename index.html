@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI_CALCULATOR</title>
+  <title>People-Counter</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-[fira] max-w-screen-sm mx-auto bg-slate-300 text-fuchsia-700 rounded-2xl p-2">
+  <h1 class="text-gray-900 text-3xl font-extrabold text-center ">BMI Calculator</h1>
+  <div class=" mx-auto flex flex-col space-y-3 w-100px rounded-lg bg-slate-200">
+    <form action="" method="get" class="flex flex-col justify-center items-center space-y-3">
+    <input type="number" placeholder="Your Weight(kg)" class="weight input input-bordered input-info w-full max-w-xs" />
+    <input type="number" placeholder="Your height(m)" class="height input input-bordered input-info w-full max-w-xs" />
+    </form>
+    <br>
+    <button class='btn w-40px mx-auto cal' calculate()>Calculate</button>
+    <br>
+    <div class="output text-4xl text-green-800 font-bold font-mono text-center"></div>
+    <br>
+    <p class="note text-2xl font-mono font-bold text-center"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
